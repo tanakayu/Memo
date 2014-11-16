@@ -1,1 +1,1 @@
-javascript:(function inquiry(){var a=document.getElementsByTagName("a");for(var i=0;i<a.length;i++){var n=a[i].firstChild;s=a[i].href;while(n){if(n.nodeValue=="お問い合わせ")window.open(s,"_blank");n=n.nextSibling;}}})();
+javascript:(function inquiry(){var a=document.getElementsByTagName("a");for(var i=0;i<a.length;i++){var n=a[i].firstChild;s=a[i].href;while(n){if(n.nodeValue=="お問い合わせ")window.open(s);n=n.nextSibling;}}})();
